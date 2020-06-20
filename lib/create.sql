@@ -1,7 +1,7 @@
 CREATE TABLE projects (
   id INTEGER PRIMARY KEY,
   title text,
-  category INTEGER,
+  category text,
   funding_goal INTEGER,
   start_date INTEGER,
   end_date INTEGER
